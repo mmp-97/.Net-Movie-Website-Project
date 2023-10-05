@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "About";
+}
+
+<div class="container">
+    <div style="text-align:center">
+        <h2>Contact Us</h2>
+        <p>Leave a message</p>
+    </div>
+
+    <div>
+        <a style="float:right;" class="btn btn-info text-white" href="javascript:history.back(1)"><b>Previous Page</b></a>
+        <a class="btn btn-info text-white" href="javascript:history.back(-1)"><b>Next Page</b></a>
+    </div>
+
+    <div class="row">
+        <div class="column">
+            <img src="https://images.unsplash.com/photo-1616530940355-351fabd9524b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" style="width:100%">
+        </div>
+        <div class="column">
+            <form action="mailto:test@gmai.com" method="get">
+                <label for="body">Comment</label>
+                <textarea id="body" name="body" placeholder="" style="height:170px"></textarea>
+                <input class="btn btn-info text-white" type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+</div>
